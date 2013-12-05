@@ -37,27 +37,7 @@
 	import project.utils.Browser;
 	import project.view.module.loading.LockScreen;
 
-//	import project.view.module.scene.tower.AutoBattleTargetPanel;
-	
-	/*import com.adobe.crypto.*;
-	   import project.config.*;
-	   import project.config.ErrorZhCn;
-	   import project.core.*;
-	   import project.events.*;
-	   import project.model.*;
-	   import project.model.data.*;
-	   import project.model.data.chat.*;
-	
-	   import project.model.item.*;
-	   import project.view.module.bagpane.*;
-	   import project.view.module.daily.*;
-	   import project.view.module.loading.*;
-	   import project.view.module.playerinfo.*;
-	
-	
-	   import flash.events.*;
-	   import flash.external.*;
-	 import flash.net.*;*/
+
 	
 	public class SMZTController extends EventDispatcher
 	{

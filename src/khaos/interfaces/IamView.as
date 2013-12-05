@@ -2,7 +2,7 @@ package khaos.interfaces
 {
 	public interface IamView
 	{
-		function show():void;
+		function show(param1:Boolean = false):void;
 		function hide():void;
 		function isVisible():Boolean;
 		function set viewType(value:int):void;

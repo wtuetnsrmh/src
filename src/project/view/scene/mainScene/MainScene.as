@@ -2,6 +2,7 @@ package project.view.scene.mainScene
 {
 	import flash.display.SpreadMethod;
 	import flash.filesystem.File;
+	import project.view.module.alert.AlertSelectPane;
 	
 	import khaos.interfaces.IamView;
 	import khaos.view.ViewType;
@@ -123,13 +124,8 @@ package project.view.scene.mainScene
 		{
 			(a.currentCardTye == 1) ? a.currentCardTye = 2 : a.currentCardTye = 1;
 			a.setCardModel(new CardModel(a.cardModle.id + 1));
-		/*if(a && contains(a)){removeChild(a)
-		   a.dispose();
-		   a=null;}
-		   b = new Card();
-		   b.setCardModel(new CardModel(2));
-		   addChild(b);
-		 b.x=200;*/
+			
+			//(Root.vmgr.getView(AlertSelectPane) as AlertSelectPane).showMessage("测试仪测试仪测试仪测试仪测试仪测试仪测试仪测试仪", function():void {trace("回调成功") }, true);
 		}
 		
 		override protected function internalHide():void

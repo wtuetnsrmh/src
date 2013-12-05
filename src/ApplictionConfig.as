@@ -3,6 +3,7 @@ package
 	import flash.filesystem.File;
 	import flash.geom.Rectangle;
 	import starling.display.Image;
+	import starling.text.TextField;
 	
 	import feathers.display.Scale9Image;
 	import feathers.textures.Scale9Textures;
@@ -99,9 +100,15 @@ package
 			return s9image;
 		}
 		
+		public static function creaText(width:int, height:int, text:String,
+                                  fontSize:Number = 12, color:uint = 0x0, bold:Boolean = false, fontName:String="微软雅黑"):TextField {
+			var t:TextField=new TextField(width, height, text, fontName,fontSize, color, bold);
+			
+			return t;
+		}
+		
 		public static function creaMyBt(tt:String, text:String="",downTT:String=""):MyButton {
 			var bt:MyButton = new MyButton(tt,text,(downTT=="")?null:assets.getTexture(add0000(downTT)));
-			
 			return bt;
 		}
 		

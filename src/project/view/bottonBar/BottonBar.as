@@ -116,7 +116,6 @@ package project.view.bottonBar
 				 case EditDeckPanel:
 					 //有返回按钮时加入队列
 					 _sceneList.push(_currentSceneClass);
-					 trace("_sceneList="+_sceneList.length);
 					 Root.vmgr.showView(EditDeckPanel,null);
 					 Root.vmgr.getView(BottonBar).hide();
 					 Starling.current.nativeStage.frameRate=60;

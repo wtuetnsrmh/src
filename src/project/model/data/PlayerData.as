@@ -16,11 +16,7 @@
 	import project.view.module.cell.Card;
 	import project.view.module.DeckPane.CreaCardGroupPane;
 	import project.view.module.helppane.NewbiePane;
-	/*import project.config.*;
-	   import project.controller.*;
-	   import project.core.*;
-	   import project.events.*;
-	 import project.model.*;*/
+	
 	import project.model.item.ItemModel;
 	import project.utils.*;
 	import flash.events.*;
